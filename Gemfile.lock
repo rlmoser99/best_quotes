@@ -1,12 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    rulers (0.0.1)
+    nio4r (2.5.8)
+    puma (6.1.0)
+      nio4r (~> 2.0)
+    rack (3.0.4.1)
+    rulers (0.0.2)
+      rack
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  puma
   rulers
 
 BUNDLED WITH
