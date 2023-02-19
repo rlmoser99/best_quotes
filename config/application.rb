@@ -6,6 +6,7 @@ $LOAD_PATH << File.join(File.dirname(__FILE__), "..", "app", "controllers")
 
 # And then you require your new controller.
 require "quotes_controller"
+require "home_controller"
 
 module BestQuotes
   class Application < Rulers::Application
