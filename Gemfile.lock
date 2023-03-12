@@ -11,13 +11,18 @@ GEM
     puma (6.1.0)
       nio4r (~> 2.0)
     rack (3.0.4.2)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    webrick (1.8.1)
 
 PLATFORMS
-  ruby
+  arm64-darwin-22
 
 DEPENDENCIES
   puma
+  rackup
   rulers!
 
 BUNDLED WITH
-   2.1.4
+   2.4.8
